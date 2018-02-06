@@ -36,16 +36,16 @@ public class GridImages extends AppCompatActivity {
             Glide.with(this).load("https://api.androidhive.info/images/glide/large/ipman3.jpg").into(image4);
 
         }else if (activityType.equals("Videos")){
-            Glide.with(this).load("https://img.youtube.com/vi/UzlKXyxgmBk/3.jpg").into(image1);
-            Glide.with(this).load("https://img.youtube.com/vi/UzlKXyxgmBk/3.jpg").into(image2);
-            Glide.with(this).load("https://img.youtube.com/vi/UzlKXyxgmBk/3.jpg").into(image3);
-            Glide.with(this).load("https://img.youtube.com/vi/UzlKXyxgmBk/3.jpg").into(image4);
+            Glide.with(this).load("http://i3.ytimg.com/vi/UzlKXyxgmBk/maxresdefault.jpg").into(image1);
+            Glide.with(this).load("http://i3.ytimg.com/vi/UzlKXyxgmBk/maxresdefault.jpg").into(image2);
+            Glide.with(this).load("http://i3.ytimg.com/vi/UzlKXyxgmBk/maxresdefault.jpg").into(image3);
+            Glide.with(this).load("http://i3.ytimg.com/vi/UzlKXyxgmBk/maxresdefault.jpg").into(image4);
 
         }else if (activityType.equals("Audios")){
-            Glide.with(this).load("https://demo.dupleit.com/VideoFolder/head.png").into(image1);
-            Glide.with(this).load("https://demo.dupleit.com/VideoFolder/head.png").into(image2);
-            Glide.with(this).load("https://demo.dupleit.com/VideoFolder/head.png").into(image3);
-            Glide.with(this).load("https://demo.dupleit.com/VideoFolder/head.png").into(image4);
+            Glide.with(this).load(R.drawable.headphone).into(image1);
+            Glide.with(this).load(R.drawable.headphone).into(image2);
+            Glide.with(this).load(R.drawable.headphone).into(image3);
+            Glide.with(this).load(R.drawable.headphone).into(image4);
         }
         gotoNext();
 
